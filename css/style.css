@@ -1,3 +1,7 @@
+* {
+  /* outline: 1px solid #800080 !important; */
+}
+
 .container {
   min-width: 1305px;
   font-family: Roboto;
@@ -328,7 +332,6 @@
 
 .footer__contacts {
   float: right;
-  font-family: Roboto;
   font-size: 25px;
   line-height: 25px;
 }
@@ -357,6 +360,7 @@
 }
 
 @media (max-width: 835px) {
+
   .title {
     font-size: 32px;
     line-height: 32px;
@@ -461,11 +465,13 @@
   }
 
   .about__information-table {
+    min-width: 580px;
     margin-top: 50px;
   }
   
   .about__inTable-element {
     max-width: 90px;
+    padding-right: 45px;
   }
   
   .about__inTable-element h3 {
@@ -575,5 +581,143 @@
     font-size: 17px;
     line-height: 21px;
     margin-bottom: 15px;
+  }
+
+  .comment {
+    min-height: 450px;
+    background-color: #EFEFEF;
+  }
+  
+  .comment__title {
+    max-width: 570px;
+    padding-top: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .comment__content {
+    max-width: 460px;
+    min-height: 260px;
+    max-height: 260px;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 25px 25px 0 25px;
+  }
+  
+  .comment__content p {
+    max-width: 405px;
+    margin-bottom: 5px;
+  }
+
+  .comment__photo {
+    width: 110px;
+    height: 100px;
+    margin-top: 30px;
+  }
+  
+  .comment__autor {
+    display: inline-block;
+    position: relative;
+    top: -20px;
+  }
+  
+  .comment__autor-name {
+    font-family: "Roboto Slab";
+    font-size: 17px;
+    line-height: 17px;
+    margin-bottom: 10px;
+  }
+  
+  .comment__autor-fb {
+    width: 18px;
+    height: 18px;
+  }
+
+  .start {
+    padding-top: 95px;
+    padding-bottom: 25px;
+  }
+  
+  .start__title {
+    padding-bottom: 30px;
+  }
+  
+  .start__price {
+    font-size: 14px;
+    line-height: 14px;
+    padding-bottom: 50px;
+  }
+  
+  .start__price span {
+    font-size: 46px;
+    line-height: 46px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+  
+  .start__info {
+    min-width: 400px;
+  }
+  
+  .start__info-element {
+    max-width: 170px;
+    padding-right: 40px;
+  }
+  
+  .start__info-element h3 {
+    font-size: 14px;
+    line-height: 14px;
+    padding-bottom: 5px;
+  }
+  
+  .start__info-element p {
+    font-size: 10px;
+    line-height: 10px;
+  }
+
+  .footer {
+    position: relative;
+    min-height: 225px; 
+    padding-top: 30px;
+  }
+
+  .footer__logo {
+    width: 65px;
+    height: 40px;
+  }
+  
+  .footer__contacts {
+    font-size: 14px;
+    line-height: 14px;
+    padding-right: 35px;
+  }
+
+  .footer__contacts img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .footer__contacts .email img {
+    height: 10px;
+  }
+  
+  .footer__contacts .phone {
+    padding-bottom: 1px;
+  }
+  
+  .footer__social {
+    margin-top: 15px;
+  }
+
+  .footer__social-elem {
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+  }
+  
+  .copyright {
+    position: absolute;
+    bottom: 10px;
+    font-size: 10px;
+    line-height: 10px;
   }
 }
