@@ -1,6 +1,7 @@
 .container {
   min-width: 1305px;
   font-family: Roboto;
+  padding-top: 10px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -353,4 +354,226 @@
   bottom: 10px;
   font-size: 18px;
   line-height: 18px;
+}
+
+@media (max-width: 835px) {
+  .title {
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .container {
+    min-width: 835px;
+  }
+
+  .header {
+    max-width: 620px;
+    max-height: 450px;
+    padding-bottom: 60px;
+  }
+
+  .header__logo {
+    width: 65px;
+    height: 40px;
+  }
+
+  .header__information-element {
+    font-size: 12px;
+    padding-right: 25px;
+  }
+
+  .header__information-element img {
+    width: 12px;
+    height: 12px;
+  }
+
+  .header__title {
+    max-width: 365px;
+    font-size: 46px;
+    margin-bottom: 10px;
+  }
+
+  .header__description {
+    max-width: 265px;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: -30px;
+  }
+  
+  .header__image-producer {
+    position: static;
+    width: 175px;
+    height: 205px;
+    margin-left: 660px;
+    margin-bottom: -25px;
+  }
+
+  .header__comment {
+    max-width: 280px;
+    min-height: 115px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .header__comment p {
+    max-width: 250px;
+    padding: 10px 15px 40px 15px;
+  }
+
+  .header__comment span {
+    position: static; 
+    float: right;
+    font-size: 12px;
+    line-height: 15px;
+    padding-top: 0px;
+  }
+
+  .about {
+    margin-bottom: 95px;
+  }
+
+  .about__title {
+    margin-bottom: 10px;
+  }
+
+  .about__description {
+    max-width: 385px;
+    min-height: 215px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .about__description p:first-child {
+    margin-bottom: -25px;
+  }
+
+  .about__image-cameraman {
+    position: static;
+    width: 180px;
+    height: 180px;
+    margin-left: 660px;
+    margin-bottom: 150px;
+  }
+
+  .about__image-gaffer {
+    width: 135px;
+    height: 115px;
+  }
+
+  .about__information-table {
+    margin-top: 50px;
+  }
+  
+  .about__inTable-element {
+    max-width: 90px;
+  }
+  
+  .about__inTable-element h3 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .about__inTable-element p {
+    font-size: 11px;
+    line-height: 15px;
+  }
+
+  .format {
+    margin-bottom: 95px;
+  }
+
+  .format__title {
+    margin-bottom: 50px;
+  }
+
+  .format__information-table {
+    min-width: 565px;
+  }
+  
+  .format__inTable-element:first-child {
+    max-width: 155px;
+    padding-right: 45px;
+  }
+  
+  .format__inTable-element:nth-child(2) {
+    max-width: 170px;
+    padding-right: 50px;
+  }
+  
+  .format__inTable-element:last-child {
+    max-width: 140px;
+  }
+  
+  .format__inTable-element h3 {
+    font-size: 15px;
+    line-height: 20px;
+    color: #1E4681;
+  }
+  
+  .format__inTable-element p {
+    font-size: 11px;
+    line-height: 14px;
+  }
+
+  .learn {
+    margin-bottom: 95px;
+  }
+  
+  .learn__title {
+    margin-bottom: 10px;
+    
+  }
+  .learn__list {
+    list-style: none;
+  }
+  
+  .learn__list-item {
+    font-size: 14px;
+    line-height: 21px;
+    padding-left: 5px;
+  }
+
+  .learn__list-item::before {
+    content: "";
+    width: 3px;
+    height: 3px;
+    margin-top: 8px;
+  }
+
+  .program {
+    margin-bottom: 95px;
+  }
+  
+  .program__title {
+    margin-bottom: 55px;
+  }
+  
+  .program__box {
+    min-width: 735px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 35px;
+  }
+  
+  .program__box-element {
+    min-width: 230px;
+    min-height: 190px;
+  } 
+  
+  .program__box-element-header {
+    min-height: 90px;
+    margin-bottom: 10px;
+  }
+  
+  .program__box-element-description {
+    min-width: 210px;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0 10px 20px 15px;
+  }
+  
+  .program__box-element-description h3 {
+    font-size: 17px;
+    line-height: 21px;
+    margin-bottom: 15px;
+  }
 }
